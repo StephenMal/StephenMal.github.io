@@ -47,7 +47,7 @@ const allowedDomains = [
         'www.google-analytics.com',
     
 
-    'stephenmaldonado.com/',
+    'localhost:4000',
 
     
 

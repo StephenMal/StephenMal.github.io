@@ -1,1 +1,0 @@
-{"version":3,"sourceRoot":"","sources":["styles.scss"],"names":[],"mappings":"AAGA,QACI,WACA,UAIF,WACE,WACA,cACA","sourcesContent":["@import \"main\";\n\n\n.column {\n    float: left;\n    width: 50%;\n  }\n  \n  /* Clear floats after the columns */\n  .row:after {\n    content: \"\";\n    display: table;\n    clear: both;\n  }"],"file":"styles.css"}
