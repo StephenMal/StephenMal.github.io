@@ -1,0 +1,21 @@
+---
+layout: page
+---
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <h1>{{page.title}}</h1>
+    <p>Status: <b>{{ page.project_status | upper}}</b><br>
+    <a href="{{page.project_home}}">Project Home</a><br>
+    <a href="{{page.project_doc}}">Documentation</a></p>
+    <p>{{page.shortdesc}}</p>
+
+    <hr>
+  </head>
+  <body>
+    {{content}}
+  </body>
+</html>

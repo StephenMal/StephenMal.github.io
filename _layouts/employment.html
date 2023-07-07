@@ -1,0 +1,17 @@
+---
+layout: page
+refactor: true
+---
+
+<h4>{{page.position}} - {{page.org}}, {{page.loc}}</h4>
+{{page.startdt}} - {{page.enddt}}
+<ul>
+    {% for bullet in page.bullets %}
+      <li>{{bullet}}</li>
+    {% endfor %}
+    </ul>
+
+<b></b> <br>
+  
+
+{{content}}

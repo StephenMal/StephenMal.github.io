@@ -1,8 +1,11 @@
 ---
 # the default layout is 'page'
+title: About Me
 icon: fas fa-info-circle
-order: 4
+order: 1
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+My name is Stephen Maldonado and I am a graduate student at the University of Central Florida pursuing a M.S. in Computer Science.  I have worked in various labs on campus on different projects, particularly those heavy with data.  I am most proficient in Python, however I have experience in Java, C, and Rust.
+
+## Education
+

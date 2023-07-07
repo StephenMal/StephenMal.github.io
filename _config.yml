@@ -32,7 +32,7 @@ github:
   username: stephenmal # change to your github username
 
 twitter:
-  username: twitter_username # change to your twitter username
+  username: stphn_mal # change to your twitter username
 
 social:
   # Change to your full name.
@@ -41,7 +41,8 @@ social:
   email: contact_me@stephenmaldonado.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
+    - https://twitter.com/stphn_mal # change to your twitter homepage
+    - https://www.instagram.com/stphn_mal/
     - https://github.com/stephenmal # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
@@ -128,6 +129,12 @@ kramdown:
       start_line: 1
 
 collections:
+  projects:
+    output: true
+  employment:
+    output: true
+  education:
+    output: true
   tabs:
     output: true
     sort_by: order
