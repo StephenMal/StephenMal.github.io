@@ -2,7 +2,7 @@
 title: Projects
 layout: page
 icon: fa-solid fa-code
-order: 2
+order: 1
 ---
 
 

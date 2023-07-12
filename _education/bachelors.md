@@ -7,4 +7,6 @@ state: FL
 school: University of Central Florida
 school_abbrev: UCF
 degree: B.S. of Computer Science
+bullets: ["Member of the Burnetts Honors College", "LEAD Scholar", "Honors in the Major", "Undergraduate Researcher"]
+order: 2
 ---

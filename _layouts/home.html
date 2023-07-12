@@ -1,0 +1,41 @@
+---
+layout: page
+refactor: true
+---
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <h1>Home</h1>
+    <hr>
+  </head>
+  <body>
+    <div>
+      {{content}}
+    </div>
+    <div>
+    <h2>Projects</h2>
+    {% for project in site.projects %}
+    <h3><a href="{{project.url}}" style="color:  #2e765e; text-decoration: none;">{{project.title}}</a></h3>
+    {% endfor %}
+    <h2>Employment</h2>
+    {% for employment in site.employment %}
+    <a href="{{employment.url}}" style="color:  #2e765e; text-decoration: none;"><b>{{employment.position}} - {{employment.org}}, {{employment.loc}}</b> <br>
+        {{employment.startdt}} - {{employment.enddt}} <br></a>
+    <br>
+    {% endfor %}
+    <h2>Education</h2>
+    {% for education in site.education %}
+    <div>
+      <a href="{{education.url}}" style="color:  #2e765e; text-decoration: none;">{{education.school}}, {{education.city}}, {{education.state}}<br>
+      <b>{{education.title}}</b> - {{education.year}}</a>
+    </div>
+    <br>
+     {% endfor %}
+    <h2>Github Contributions</h2>
+    <div><a href="https://github.com/StephenMal"><img src="https://ghchart.rshah.org/stephenmal"></a></div>
+  </div>
+  </body>
+</html>

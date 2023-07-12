@@ -1,0 +1,20 @@
+---
+layout: page
+refactor: true
+---
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <p>Last Updated: {{page.lastupdated}}</p>
+    <i> Click <a href="{{site.url}}/{{page.filepath}}" style="color:  #2e765e; text-decoration: none;" target="_blank">here</a> to open the pdf file in a new tab.</i>
+    <hr>
+  </head>
+  <body>
+    <div>
+        <embed src="{{site.url}}/{{page.filepath}}" type="application/pdf" width=800 height=1100/>
+    </div>
+  </body>
+</html>

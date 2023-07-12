@@ -2,7 +2,7 @@
 title: Employment
 layout: page
 icon: fa-solid fa-briefcase
-order: 4
+order: 3
 ---
 
 {% for employment in site.employment %}
